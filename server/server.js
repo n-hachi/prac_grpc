@@ -38,6 +38,7 @@ var feature_list = [];
  *     indicates no feature
  */
 function checkFeature(point) {
+  console.log(point);
   var feature;
   // Check if there is already a feature object for the given point
   for (var i = 0; i < feature_list.length; i++) {
